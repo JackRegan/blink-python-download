@@ -1,7 +1,3 @@
-# To run :
-# source .venv/bin/activate
-# python download_blink_clips.py
-
 import asyncio
 from blinkpy.blinkpy import Blink
 from blinkpy.auth import Auth
@@ -9,7 +5,7 @@ from aiohttp import ClientSession
 import os
 import getpass
 
-EMAIL = "paulregan73@gmail.com"
+EMAIL = ""
 DOWNLOAD_DIR = "blink_clips"
 
 async def run_blink_clip_download(password: str):
